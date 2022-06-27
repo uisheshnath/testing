@@ -1,0 +1,344 @@
+ul.nav li a {font-size: 20px;
+    color: #606161!important;
+    font-weight: 400;}
+    header i.bi{padding-right: 20px;font-size:20px}
+  section.first {height: 78vh;}
+ 
+ 
+  section{position:relative; padding: 50px 0;}
+  .Plx{
+    z-index: -1;
+    position: absolute;
+    top: -320.32px;
+    width: 100%;
+    will-change: transform;
+    transform: translateY(0px);
+}
+
+
+header{
+    justify-content: center
+}
+
+
+
+
+
+
+.spacing {
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+}
+.sattler{text-align:center}
+.sattler p {font-size:14px;}
+.sattler a {    color: #606161;
+    font-size: 20px;
+    text-decoration: none;}
+
+    .eximg img {
+        min-width: 250px;
+        min-height: 119px;
+    }
+
+    section.howwer h2{
+        color:#606161;
+        font-size: 50px;
+       font-weight: 700;
+    }
+    section.howwer p {
+        font-size: 20px;
+        color:#606161;
+    }
+
+    .main {
+        position:relative;
+        min-width: 300px;
+        max-width: 500px;
+        padding:20px;
+        text-align: center;
+    }
+
+    .main img{
+        filter: brightness(0.6);
+    }
+
+    .slides h2 {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .slides .content {
+        position: absolute;
+        top: 30%;
+        width: 450px;
+    }
+    .slides p {
+        font-size: 18px;
+        padding: 10px;
+        color: #fff;
+    }
+    .slides a {
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .slides {
+        background:rgb(63 101 117);
+    }
+
+    h2.why{
+        color:#606161;
+        font-size: 40px;
+    }
+
+    .whys-content{padding:10px;}
+
+    .whys-content h2 {
+        color:#606161;
+        font-size: 30px;
+    }
+    .whys-content p{
+        color:#606161;
+    }
+
+    /* above sign in */
+
+    .absign .content{
+        position: absolute;
+        top: 30%;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .main-sigh{
+        position: relative;
+        padding: 20px;
+        text-align: center; 
+    }
+
+   .sign {
+        background-color:#1FC2DE;
+        padding: 40px
+    }
+    .sign h3 {
+        font-size:30px;
+        color: #fff;
+        font-weight:700;
+    }
+    .sign form{position: relative}
+    .tsub {
+        position: absolute;
+        right: 9px;
+        top: 0px;
+        font-size: 25px;
+    }
+    footer{background:#373637}
+
+    footer ul{padding:0;margin:0;}
+    footer ul li {padding:0;margin:0;list-style:none}
+
+    footer .bottom i.bi{font-size:20px;padding:10px;}
+
+
+    @media (max-width:480px){
+        section.howwer img {
+            width: 100%;
+        } 
+        .Plx{top:0}
+        
+        section.first {
+            height: 30vh;
+        }
+        .eximg img {
+            width: 60%;
+        }
+        section {
+            padding: 10px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 350px;
+            margin: 20px 0;
+        }
+        .w-75 {
+            width: 100%!important;
+        }
+
+
+    }
+
+@media(min-width:481px) and (max-width:768px){
+    section.howwer img {
+        width: 100%;
+    } 
+    .Plx{top:-15px}
+    
+    section.first {
+        height: 50vh;
+    }
+    .eximg img {
+        width: 60%;
+    }
+    section {
+        padding: 10px 0;
+    }
+    iframe {
+        width: 100%;
+        height: 350px;
+        margin: 20px 0;
+    }
+    .w-75 {
+        width: 100%!important;
+    }
+    .slides h2{ 
+        font-size: 20px;
+        padding: 0;
+      
+      }
+    .main { 
+    padding: 0;
+    text-align: center;
+  }
+
+
+
+}
+
+/* Setup page */
+.machinesetup h1{
+    font-size:30px;
+    color:rgb(114 112 112);
+}
+
+.machinesetup p, .machinesetup ul li{
+    font-size: 14px;
+    line-height: 0.8;
+}
+.machinesetup a{
+    color: #000;
+    text-decoration: none;
+}
+
+.lsborder{
+    border-right: 1px dotted;
+}
+
+.machinesetup-lang h1 {
+    color: rgb(114 112 112);
+    font-size: 33px;
+    font-weight: 700;
+}
+.machinesetup-lang h5{
+    font-weight: 600;
+    color: #504f4f;
+}
+.machinesetup-lang p{font-size:14px}
+.setup-img {
+    border: 1px solid #1dc1dd;
+    padding: 30px 10px 20px 10px;
+}
+.setup-img {
+    border: 1px solid #1dc1dd;
+    padding: 30px 10px 20px 10px;
+    margin: 15px 15px;
+}
+.machinesetup-lang a{color:rgb(114 112 112); text-decoration: none;}
+
+.btn:hover, .btn:focus , .btn {
+    color: var(--bs-btn-hover-color);
+    background-color: #1dc1dd;
+    border-color: #1dc1dd;
+    border-radius: inherit;
+    box-shadow: none;
+}
+.btn-primary ,.btn-primary:hover {
+    background-color: #1dc1dd;
+    border-color: #1dc1dd; 
+    border-radius: inherit;
+    
+}
+
+.modal {
+    --bs-modal-width: 900px;
+    }
+
+    .mdalsign{
+        background-color: #F6F6F6;
+        border: 1px solid #DDD;
+        padding:20px
+    }
+    .modal-body h2{
+        font-weight: revert;
+        font-size: 35px;
+        color: rgb(114 112 112);
+    }
+    
+    .modal-body h4{
+        font-weight: 600;
+        color: rgb(114 112 112);
+    }
+    .modal-body  label , .modal-body p , .modal-body li {
+        color: rgb(114 112 112);
+        font-size: 14px;
+    }
+    .modal-body a{
+        text-decoration: none;
+        color: rgb(114 112 112);
+    }
+
+    .form-check a{
+        color: #1dc1dd;  
+    }
+
+    .nextpre {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* step */
+
+    .machinesetupstep .step-tab .nav-pills .nav-link,.machinesetupstep .step-tab .nav-pills .nav-link.active, .machinesetupstep .step-tab .nav-pills .show>.nav-link , .machinesetupstep .step-tab .nav-link:focus, .machinesetupstep .step-tab .nav-link:hover {
+        color: #fff;
+        background-color: transparent;
+        font-size: 14px;
+    }
+
+    .machinesetupstep .step-tab ul#pills-tab {
+        justify-content: center;
+    }
+
+    .machinesetupstep .step-tab li.nav-item {
+        background: #1dc1dd;
+        padding: 0px;
+        line-height: 0.5;
+        border: 1px solid #373637;
+        min-width: 300px;
+    }
+
+    .machinesetupstep div#pills-tabContent {
+        padding: 50px;
+    }
+
+    .first .mater img {
+        max-width: 150px;
+        min-height: 140px ;
+        margin: 10px 20px;
+    }
+
+    .machinesetupstep div#pills-tabContent {
+        padding: 25px 50px;
+        overflow: scroll;
+        height: 500px;
+        width: 1200px;
+    }
+
+    .contact h1{
+        font-size:30px;
+        color:rgb(114 112 112);
+    }
+    .contact p{
+        font-size:30px;
+        color:rgb(114 112 112);
+    }
